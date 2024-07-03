@@ -363,7 +363,6 @@ class TransactionDetail(object):
     def transfer_account_id(self):
         """Gets the transfer_account_id of this TransactionDetail.  # noqa: E501
 
-
         :return: The transfer_account_id of this TransactionDetail.  # noqa: E501
         :rtype: str
         """
@@ -377,8 +376,8 @@ class TransactionDetail(object):
         :param transfer_account_id: The transfer_account_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if transfer_account_id is None:
-            raise ValueError("Invalid value for `transfer_account_id`, must not be `None`")  # noqa: E501
+        # if transfer_account_id is None:
+        #     raise ValueError("Invalid value for `transfer_account_id`, must not be `None`")  # noqa: E501
 
         self._transfer_account_id = transfer_account_id
 
