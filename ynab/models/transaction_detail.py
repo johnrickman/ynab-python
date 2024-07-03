@@ -198,8 +198,8 @@ class TransactionDetail(object):
         :param memo: The memo of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if memo is None:
-            raise ValueError("Invalid value for `memo`, must not be `None`")  # noqa: E501
+        # if memo is None:
+        #     raise ValueError("Invalid value for `memo`, must not be `None`")  # noqa: E501
 
         self._memo = memo
 
@@ -354,8 +354,8 @@ class TransactionDetail(object):
         :param category_id: The category_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if category_id is None:
-            raise ValueError("Invalid value for `category_id`, must not be `None`")  # noqa: E501
+        # if category_id is None:
+        #     raise ValueError("Invalid value for `category_id`, must not be `None`")  # noqa: E501
 
         self._category_id = category_id
 
@@ -402,8 +402,8 @@ class TransactionDetail(object):
         :param import_id: The import_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if import_id is None:
-            raise ValueError("Invalid value for `import_id`, must not be `None`")  # noqa: E501
+        # if import_id is None:
+        #     raise ValueError("Invalid value for `import_id`, must not be `None`")  # noqa: E501
 
         self._import_id = import_id
 
