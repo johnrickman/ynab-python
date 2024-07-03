@@ -331,8 +331,8 @@ class TransactionDetail(object):
         :param payee_id: The payee_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if payee_id is None:
-            raise ValueError("Invalid value for `payee_id`, must not be `None`")  # noqa: E501
+        # if payee_id is None:
+        #     raise ValueError("Invalid value for `payee_id`, must not be `None`")  # noqa: E501
 
         self._payee_id = payee_id
 
@@ -447,8 +447,8 @@ class TransactionDetail(object):
         :param payee_name: The payee_name of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if payee_name is None:
-            raise ValueError("Invalid value for `payee_name`, must not be `None`")  # noqa: E501
+        # if payee_name is None:
+        #     raise ValueError("Invalid value for `payee_name`, must not be `None`")  # noqa: E501
 
         self._payee_name = payee_name
 
