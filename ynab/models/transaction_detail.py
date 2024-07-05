@@ -542,3 +542,6 @@ class TransactionDetail(object):
     def __ne__(self, other):
         """Returns true if both objects are not equal"""
         return not self == other
+    
+    def default(self):
+        return self.to_dict()
